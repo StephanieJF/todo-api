@@ -6,7 +6,7 @@ git_source(:github) do |repo_name|
 end
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '~> 5.1.2'
+gem 'rails'
 
 group :production do
   # Use pg as the production database for Active Record
@@ -23,8 +23,7 @@ end
 gem 'puma', '~> 3.0'
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
-# Use Uglifier as compressor for JavaScript assets
-gem 'uglifier', '>= 1.3.0'
+
 
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
@@ -33,7 +32,7 @@ gem 'turbolinks', '~> 5'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 gem 'jbuilder', '~> 2.5'
 
-gem 'thor', '0.19.1'
+gem 'thor'
 
 group :development do
   gem 'listen', '~> 3.0.5'
