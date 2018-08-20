@@ -37,3 +37,8 @@ gem 'thor'
 group :development do
   gem 'listen', '~> 3.0.5'
 end
+
+gem 'active_model_serializers', '~> 0.10.0'
+gem 'bcrypt'
+
+gem 'faker', :git => 'https://github.com/stympy/faker.git', :branch => 'master'
