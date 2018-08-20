@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4524f31a-fed3-4687-916e-202a69303e09" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/app/controllers/api/users_controller.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/controllers/api_controller.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/routes.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/routes.rb" afterDir="false" />
-    </list>
+    <list default="true" id="4524f31a-fed3-4687-916e-202a69303e09" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/.bundle/" />
     <ignored path="$PROJECT_DIR$/components/" />
     <ignored path="$PROJECT_DIR$/public/system/" />
@@ -147,11 +142,11 @@
       <path value="$PROJECT_DIR$/package.json" />
     </packageJsonPaths>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
-    <option name="x" value="217" />
-    <option name="y" value="23" />
-    <option name="width" value="1223" />
-    <option name="height" value="791" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="160" />
+    <option name="y" value="34" />
+    <option name="width" value="1022" />
+    <option name="height" value="787" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -340,10 +335,10 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11661000" />
+    <option name="totallyTimeSpent" value="12558000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="669" y="0" width="771" height="900" extended-state="6" />
+    <frame x="160" y="34" width="1022" height="787" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -352,8 +347,8 @@
       <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Version Control" />
-      <window_info active="true" anchor="bottom" id="Terminal" sideWeight="0.4993515" visible="true" weight="0.2606132" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.3307393" />
+      <window_info active="true" anchor="bottom" id="Terminal" sideWeight="0.4993515" visible="true" weight="0.30995792" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24951077" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="right" id="Database" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
