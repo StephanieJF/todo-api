@@ -10,10 +10,10 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2018_08_20_005255) do
+ActiveRecord::Schema.define(version: 2018_08_25_160824) do
 
   create_table "items", force: :cascade do |t|
-    t.text "body"
+    t.text "description"
     t.integer "list_id"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
@@ -21,7 +21,7 @@ ActiveRecord::Schema.define(version: 2018_08_20_005255) do
   end
 
   create_table "lists", force: :cascade do |t|
-    t.string "title"
+    t.string "name"
     t.boolean "private"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
@@ -30,8 +30,8 @@ ActiveRecord::Schema.define(version: 2018_08_20_005255) do
   end
 
   create_table "users", force: :cascade do |t|
-    t.string "email"
-    t.string "password_digest"
+    t.string "username"
+    t.string "password"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end

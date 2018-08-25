@@ -2,17 +2,23 @@ require 'faker'
 
 20.times do
   User.create!(
-          email: Faker::Internet.email,
-          password_digest: Faker::Lorem.characters(6)
+          username: Faker::Internet.username,
+          password: Faker::Internet.password(5, 8)
   )
 end
+
+User.create!(
+        username: "sjfischler",
+        password: "helloworld"
+)
 
 users = User.all
 
 40.times do
   List.create!(
           user: users.sample,
-          title: Faker::Lorem.sentence
+          title: Faker::Lorem.sentence,
+          private: false
   )
 end
 
