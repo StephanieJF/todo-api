@@ -2,8 +2,8 @@ require 'faker'
 
 20.times do
   User.create!(
-          email: Faker::Internet.email,
-          password_digest: Faker::Lorem.characters(6)
+          username: Faker::Internet.username,
+          password: Faker::Internet.password(5, 8)
   )
 end
 
