@@ -7,12 +7,18 @@ require 'faker'
   )
 end
 
+User.create!(
+        username: "sjfischler",
+        password: "helloworld"
+)
+
 users = User.all
 
 40.times do
   List.create!(
           user: users.sample,
-          title: Faker::Lorem.sentence
+          title: Faker::Lorem.sentence,
+          private: false
   )
 end
 

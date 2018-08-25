@@ -1,8 +1,8 @@
 class ListSerializer < ActiveModel::Serializer
-  attributes :id, :title, :private
+  attributes :id, :name, :private
 
-  def title
-    object.title
+  def name
+    object.name
   end
 
   def private
